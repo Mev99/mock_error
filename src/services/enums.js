@@ -1,0 +1,13 @@
+const EErrors = {
+    DATABASE_ERRROR: 'DATABASE_ERROR',
+    BAD_GATEWAY: 502,
+    INTERNAL_SERVER_ERROR: 500,
+    BAD_REQUEST: 400,
+    UNAUTHORIZED: 401,
+    FORBIDDEN: 403,
+    NOT_FOUND: 404,
+    REQUEST_TIMEOUT: 408,
+    I_AM_A_TEAPOT: 418
+  }
+  
+  export default EErrors
